@@ -1,136 +1,49 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    
-    <title>website layout with image gallery</title>
-    <style>
-
-        *{
-            box-sizing: border-box;
-        }
-    body{
-        margin: 0;
-        background: gray;
-    }
-    nav{
-        background: #594848;
-        width: 100%;
-        overflow: auto;
-    }
-    ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    li{
-        float: left;
-    }
-    nav a{
-        width: 120px;
-        display: block;
-        text-decoration: none;
-        text-align: center;
-        background: #594848;
-        font-size: 17px;
-        color: white;
-        padding: 20px 10px;
-        font-family: Arial;
-      }
-      nav a:hover{
-          background: #fff;
-          color: black;
-      }
-    
-    .container{
-        max-width: 1200px;
-        margin: auto;
-        background: #f2f2f2;
-        overflow: auto;
-    }
-    
-    .gallery{
-        margin: 5px;
-        border: 1px solid #ccc;
-        float: left;
-        width: 390px;
-    }
-    .gallery img{
-        width: 100%;
-        height: auto;
-    }
-    .gallery img:hover{
-        background: #fff;
-        color: black;
-    }
-    .desc{
-        padding: 15px;
-        text-align: center;
-    }
-    footer{
-        padding: 10px;
-        font-size: 17px;
-        font-weight: bold;
-        text-align: center;
-        background: #594848;
-        color: white;
-        font-family: Arial;
-        letter-spacing: 1px;
-    }
-    
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css"> 
+    <title>portfolio</title>
 </head>
+
 <body>
 
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Download</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
+    <div class="container">
+        <div class="sidebar">
+
+            <nav>
+                <ul>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="skills.html">skills</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container info">
+         <div class="text">
+
+            <h1>Hi, <br> I'm <span class="name">Sameena <br> Khanum.</span> <br>Frontend Developer.</h1>
+
+            <img src="img/img.jpg" alt="img" >
+         </div>
+
+         <div class="icons">
+             
+             <ul>
+           <li><a href="https://github.com/sameenakhanum"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+           <li><a href="https://www.linkedin.com/in/sameena-khanum-055b47169"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+           <li><a href="https://www.twitter.com/sameena41679425"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+             </ul>
+        </div>
+
+        </div>
+
+    </div>
+   
     
-        
-</nav>
-<div class="container">
-    <div class="gallery">
-    <img src="img/khan5.png" alt="khan" height="500" width="500">
-    <div class="desc">Add a description of the image here</div>
-    </div>
-    
-
-    <div class="gallery">
-    <img src="img/khan6.jpg" alt="khan" height="500" width="500">
-    <div class="desc">Add a description of the image here</div>
-    </div>
-
-    <div class="gallery">
-    <img src="img/khan7.jpg" alt="khan" height="500" width="500">
-    <div class="desc">Add a description of the image here</div>
-    </div>
-    
-    <div class="gallery">
-    <img src="img/khan1.jpg" alt="khan" height="500" width="500">
-    <div class="desc">Add a description of the image here</div>
-    </div>
-
-    <div class="gallery">
-    <img src="img/download (1).jpg" alt="khan" height="500" width="500">
-    <div class="desc">Add a description of the image here</div>
-    </div>
-
-    <div class="gallery">
-    <img src="img/download.jpg" alt="khan" height="500" width="500">
-    <div class="desc">Add a description of the image here</div>
-    </div>
-
-    
-
-</div>
-    <footer>
-        All Right Reserved Web Master
-    </footer>
-
 </body>
 </html>
