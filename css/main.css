@@ -160,15 +160,14 @@ button {
         color: crimson;
     }
     .image {
-        margin-left: -20rem;
+        margin-left: -30rem;
     }
     .image img{
         height: 350px;
         width: 300px;
-        margin-left: 25px;
         }
     .icons {
-        margin-left: -20rem;
+        margin-left: -30rem;
     }
 .about h1 {
     font-size: 45px;
@@ -189,7 +188,7 @@ button {
     font-size: 25px;
 }
     button {
-        width: 15%;
+        width: 10%;
         height: 5vh;
         background-color: #252627;
         color: crimson;
