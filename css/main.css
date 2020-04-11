@@ -62,7 +62,7 @@ span.name {
 .image img{
     margin: 25px;
     border-radius: 50%;
-    height: 300px;
+    height: 250px;
     width: 250px;
 }
 .icons {
@@ -100,6 +100,24 @@ span.name {
 .about h3 {
     color: cornsilk;
     padding-top: 10px;
+}
+.about h2 {
+    color: hsl(0, 0%, 44%);
+    padding-bottom: 20px;
+}
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single-img {
+    padding: 0 20px 20px;
+}
+img:hover {
+    opacity: .5;
+    transition: .9s;
 }
 
 /* skills section */
